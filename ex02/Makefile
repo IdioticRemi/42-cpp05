@@ -50,7 +50,7 @@ $(NAME): $(OBJS)
 	printf "$(FG_BGRAY)[ $(NAME^^) ] $(FG_BGREE)BUILD\033[$(OFFSET)G$(FG_BWHIT): $(FG_BWHIT)$(NAME)$(RESET)\n"
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) *_shrubbery
 	printf "$(FG_BGRAY)[ $(NAME^^) ] $(FG_BMAGE)CLEAN\033[$(OFFSET)G$(FG_BWHIT): $(FG_WHIT).o files cleaned$(RESET)\n"
 
 fclean: clean
