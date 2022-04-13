@@ -9,6 +9,8 @@ static void exprintln(std::exception &e)
 }
 
 int main(void) {
+	std::srand(std::time(nullptr));
+	
 	Form *form = NULL;
 	Bureaucrat bob("bob", 1);
 	Bureaucrat phil("phil", 40);

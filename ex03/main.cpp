@@ -7,6 +7,8 @@
 
 int	main(void)
 {
+	std::srand(std::time(nullptr));
+	
 	Intern		usefulIdiot;
 	Bureaucrat	paul("Paul", 3);
 	Form		*form;
